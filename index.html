@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/w3-css/4.1.0/w3.css"
         integrity="sha512-Ef5r/bdKQ7JAmVBbTgivSgg3RM+SLRjwU0cAgySwTSv4+jYcVeDukMp+9lZGWT78T4vCUxgT3g+E8t7uabwRuw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/style.css">
     <title>Campos</title>
 </head>
@@ -16,16 +19,19 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="top-bar">
+            <div class="nav-links">
                 <div class="left-side">
-                    <a href="https://zyro.com/templates"> &#8592;  All templates</a>
+                    <a href="https://zyro.com/templates"> <i class="fa-solid fa-arrow-left"></i> All templates</a>
+                    <a href="" title="Desktop"><i class="fa-solid fa-desktop"></i></a>
+                    <a href="" title="Tablet"><i class="fa-solid fa-tablet"></i></a>
+                    <a href="" title="Mobile"><i class="fa-solid fa-mobile"></i></a>
                 </div>
                 <div class="right-side">
-                    <p> &#9989;    No credit card required</p>
+                    <p> <i class="fa-solid fa-circle-check"></i> No credit card required</p>
                     <a href="">START BUILDING</a>
                 </div>
             </div>
-            <div class="nav-links">
+            <div class="nav-bar">
                 <div class="left-sd"> <a href="#">CAMPOS.</a></div>
                 <div class="right-sd">
                     <a href="https://zyro.com/preview/campos?utm_medium=affiliate&utm_source=aff1635&utm_campaign=aff35&transaction_id=102843171a18476278e6d3a52b3d8f#desktop"
@@ -34,19 +40,83 @@
                         target="_blank">Contact</a>
                     <a href="https://zyro.com/preview/campos?utm_medium=affiliate&utm_source=aff1635&utm_campaign=aff35&transaction_id=102843171a18476278e6d3a52b3d8f#desktop"
                         target="_blank">Book a table</a>
+                    <form class="search" action="">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
                 </div>
             </div>
         </div>
-        <div class="content">
-            <img src="./assets/images/Powdered_sugar2.jpg" alt="">
-            <div class="text">
-                <h1>CAMPOS.</h1>
-                <p>1445 Floral Ave. New York City, United States</p>
-                <a href=""> #3B5998; </a>
-                <a href=""></a>
-                <a href=""></a>
+        <section>
+            <div class="content">
+                <img src="./assets/images/Powdered_sugar2.jpg" alt="">
+                <div class="text">
+                    <table>
+                        <tr>
+                            <th>Weight</th>
+                            <th>Ingredient</th>
+                            <th>Baker's Percentage</th>
+                        </tr>
+                        <tr>
+                            <td>806g</td>
+                            <td>High protein bread flour, malted (King Arthur Bread Flour)</td>
+                            <td>80.0%</td>
+                        </tr>
+                        <tr>
+                            <td>202g</td>
+                            <td>Whole wheat flour (King Arthur Whole Wheat Flour)</td>
+                            <td>20.0%</td>
+                        </tr>
+                        <tr>
+                            <td>766g</td>
+                            <td>Water</td>
+                            <td>76.0%</td>
+                        </tr>
+                    </table>
+                    <h1>CAMPOS.</h1>
+                    <em>1445 Floral Ave. New York City, United States</em>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="mailto:info@campos.com"><i class="fa-solid fa-envelope"></i></a>
+                    <video autoplay muted>
+                        <source src="./assets/videos/BREAD B-ROLL - Daniel Schiffer Inspired.mp4">
+                    </video>
+                    <form action="">
+                        <span>Your choice of bread</span>
+                            <select name="" id="">
+                                <option value="">Pumpkin Bread	</option>
+                                <option value="">Banana Bread</option>
+                                <option value="">Croissant</option>
+                                <option value="">Focaccia</option>
+                                <option value="">Potato Bread</option>
+                                <option value="">English Muffin</option>
+                            </select>
+                            <marquee behavior="" direction="">There are numerous different types of bread, but they all share 1 characteristic: bread is an excellent energy supporter. Indeed, bread is a staple food in many cultures, especially in Western. However, it does not mean that Asia or other continents do not consume the bread.</marquee>
+                            <ul>
+                                <li>Food Seasoning. Rs 300/ Kg</li>
+                                <li>Chocolate Pharmaceutical Flavours. Rs 800/ kg</li>
+                                <li>Peppermint Pharmaceutical Flavor. Rs 550/ Kg</li>
+                                <li>Bitter Mask Pharmaceutical Flavors. Rs 1,000/ kg</li>
+                                <li>Strawberry Pharmaceutical Flavours. Rs 750/ Kg</li>
+                                <li>Mixed Fruit Pharmaceutical Flavour. Rs 500/ KG</li>
+                                <li>Spearmint Pharmaceutical Flavors. Rs 700/ KG</li>
+                            </ul>
+                    </form>
+                </div>
+        </section>
+        <footer class="footer">
+            <div class="iframe">
+                <div style="width: 50%"><iframe width="50%" height="400" frameborder="0" scrolling="No" marginheight="0"
+                        marginwidth="0"
+                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1445%20Floral%20Ave.%20New%20York%20City,%20United%20States+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                            href="https://www.maps.ie/distance-area-calculator.html">measure distance on
+                            map</a></iframe></div>
             </div>
-        </div>
+            <div class="nav">
+                <div class="brand-logo">MY BRAND LOGO</div>
+                <div class="all-rights-reserved">All rights reserved &copy; 2022</div>
+            </div>
+        </footer>
     </div>
 </body>
 
